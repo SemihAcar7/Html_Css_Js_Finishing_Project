@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head1{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    height: 30px;
+    align-items: center;
+    margin: 0px 150px;
+}
+
+.sol_ul{
+    display: flex;
+    gap: 10px;
+    
+    
+}
+.sag_ul{
+    display: flex;
+    gap: 20px;
+    margin-right: 25px;
+    
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.head2{
+    display: flex;
+    align-items: center;
+    justify-content:space-around
+    
+}
+.head3{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.input_yani_ul{
+    display: flex;
+    gap: 25px;
+}
+
+
+.orta_yazilar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 180px;
+    
+
+}
+
+.slider_divleri{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 35px;
+}
+
+.content_div_sol{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-top: 45px;
+   padding: 15px;
+   margin-left: 80px;
+   max-width: 500px;
+    
+}
+.content_div_sag{
+    margin-right: 50px;
+}
+.get_it_now{
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    width: 75px;
+}
+footer{
+    background-color: antiquewhite;
+}
+
+.footer1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+button:hover{
+    background-color: bisque;
+}
+.footer1_divleri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 50px;
+}
+.footer_aciklama{
+    font-size: 12px;
+}
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    
+}
+
+@media screen and (max-width: 800px){
+   .head1{
+    display: flex;
+    flex-direction: column;
+   }
+}
+
+@media screen and (max-width: 999px){
+    .footer1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
